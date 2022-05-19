@@ -33,13 +33,39 @@ body {
 
 header{
     text-align:center;
-}
-
-#section1{
-    text-align:right;
     
 }
-
-aside{
-    text-align: left;
+#section1{
+    text-align:right;
+  
 }
+
+aside {
+    background-color: orange;
+}
+@media only screen and (min-width: 480px) {
+    aside{
+        text-align: left;
+        background-color: red;
+    }
+  }
+@media only screen and (min-width: 768px) {
+    aside{
+        text-align: left;
+        background-color: palevioletred;
+    }
+  }
+
+@media only screen and (min-width: 1024px) {
+    aside{
+        text-align: left;
+        background-color: blue;
+    }
+}
+/* @media (min-width: 800px) {
+    aside{
+        text-align: left;
+        background-color: green;
+    }
+  }
+   */
